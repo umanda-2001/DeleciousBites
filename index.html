@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Bites | Home</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff8f0;
+    }
+    .navbar {
+      background-color: #1c1c1c;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1200&q=80') 
+                  no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      background-color: rgba(0,0,0,0.6);
+      padding: 15px;
+      border-radius: 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      background-color: rgba(0,0,0,0.5);
+      display: inline-block;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .menu-preview img {
+      border-radius: 15px;
+      transition: transform 0.3s;
+    }
+    .menu-preview img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background-color: #1c1c1c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4" href="#">🍔 Delicious Bites</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+ </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+<section class="hero text-center">
+  <div class="container">
+    <h1>Welcome to Delicious Bites 🍽️</h1>
+    <p>Order your favorite meals online quickly and easily</p><br>
+    <a href="menu.html" class="btn btn-warning btn-lg">View Menu</a>
+  </div>
+</section>
+
+
+  <!-- Menu Preview Section -->
+  <section class="menu-preview container my-5">
+    <h2 class="text-center mb-4 fw-bold">Popular Dishes</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=400&q=80" class="img-fluid">
+        <h5 class="mt-2">Cheese Burger</h5>
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="img 1.jpg" class="img-fluid">
+        <h5 class="mt-2">Chicken Fried Rice</h5>
+      </div>
+      <div class="col-md-4 mb-4">
+        <img src="img 2.jpeg" class="img-fluid">
+        <h5 class="mt-2">Seafood Pizza</h5>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Delicious Bites | All Rights Reserved</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
